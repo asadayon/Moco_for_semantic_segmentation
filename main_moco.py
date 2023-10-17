@@ -22,8 +22,8 @@ import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 import torchvision.models as models
 
-import moco.loader
-import moco.builder
+import loader
+import builder
 
 model_names = sorted(name for name in models.__dict__
     if name.islower() and not name.startswith("__")
